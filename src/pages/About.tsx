@@ -65,7 +65,7 @@ const About = () => {
             className="flex justify-center bg-teal-500 rounded-3xl p-[1px]"
           >
             <img
-              src="public\images\section4\img3.avif"
+              src="images\section4\img3.avif"
               alt="Our Campus"
               className="rounded-3xl shadow-lg"
             />
