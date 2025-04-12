@@ -29,7 +29,7 @@ const Header = () => {
           <Link
             key={item.name}
             to={item.path}
-            className={`hover:text-secondary hover:scale-105 transition ${
+            className={`hover:text-gray-600 transition ${
               location.pathname === item.path ? "text-yellow-600 underline" : ""
             }`}
           >
