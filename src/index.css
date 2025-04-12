@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+@layer components {
+  /* Backgrounds */
+  .bg-primary {
+    @apply bg-white;
+  }
+
+  .bg-secondary {
+    @apply bg-yellow-600;
+  }
+
+  /* Text Colors */
+  .text-primary {
+    @apply text-black;
+  }
+
+  .text-secondary {
+    @apply text-gray-950 text-base;
+  }
+  .btn-bg {
+    @apply bg-yellow-600 hover:bg-yellow-500 text-white;
+  }
+
+}
