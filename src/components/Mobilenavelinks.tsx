@@ -14,24 +14,22 @@ const MobilenavLinks: React.FC<MobileNavLinksProps> = ({ setMenuOpen }) => {
       animate={{ opacity: 1, y: 0 }} // Fade in and slide down
       exit={{ opacity: 0, y: -20 }} // Fade out when unmounting
       transition={{ duration: 0.3, ease: "easeInOut" }} // Smooth transition
-      className="absolute top-16 left-0 w-full bg-white shadow-lg rounded-b-xl flex flex-col items-center space-y-4 p-6 lg:hidden"
+      className="absolute top-0 left-0 w-full bg-white shadow-lg rounded-b-xl flex flex-col items-center space-y-4 p-6 lg:hidden border-[1px] border-yellow-500"
     >
       {/* Navigation Links */}
       {[
         { name: "Home", path: "/" },
-        { name: "Schools", path: "/Schools" },
         { name: "About", path: "/About" },
-        { name: "Enroll", path: "/Enroll" },
+        { name: "Contact", path: "/Contact" },
         { name: "Careers", path: "/Careers" },
-        { name: "News", path: "/News" },
       ].map((item) => (
         <Link
           key={item.name}
           to={item.path}
           className={`flex justify-between items-center w-full px-6 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 ${
             location.pathname === item.path
-              ? "text-red-600 bg-red-100"
-              : "text-blue-900 hover:text-blue-500 hover:bg-gray-100"
+              ? "text-yellow-600 bg-yellow-50 border-[1px] border-yellow-500"
+              : "text-primary hover:text-secondary hover:bg-gray-100"
           }`}
           onClick={() => setMenuOpen(false)}
         >

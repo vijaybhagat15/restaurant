@@ -1,9 +1,9 @@
 import JobSearch from "../components/Jobserch";
 export default function CareerSection() {
   return (
-    <section className="w-full bg-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-20 relative overflow-hidden text-secondary">
+    <section className="w-full bg-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 sm:py-20 py-5 relative overflow-hidden text-secondary">
       {/* Right Image Content */}
-<div className="w-full md:w-[500px] mt-12 md:mt-0 sticky top-0 z-0 self-start sm:hidden">
+<div className="w-full md:w-[500px] mt-3 md:mt-0 sticky top-0 z-0 self-start sm:hidden">
   <img
     src="images/Carrers/img1.avif"
     alt="Cognizant team"
