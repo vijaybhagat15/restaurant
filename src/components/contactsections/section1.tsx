@@ -6,7 +6,7 @@ const Section1: React.FC = () => {
 
 
   return (
-    <div className="relative h-[400px] w-full max-w-screen-2xl mx-auto" ref={ref}>
+    <div className="relative h-[400px] w-full max-w-screen-2xl mx-auto border-gray-300 border-b-2" ref={ref}>
       <img
         src="images/contact/contactbg.avif"
         className="w-full h-full object-cover"

@@ -44,11 +44,11 @@ const Footer = () => {
 
           <h3 className="mt-6 text-lg font-semibold">Connect With Us</h3>
           <div className="mt-2 flex space-x-4">
-            <FaFacebook className="w-6 h-6 cursor-pointer hover:scale-110 hover:text-blue-500 transition-transform" />
-            <FaInstagram className="w-6 h-6 cursor-pointer hover:scale-110 hover:text-pink-500 transition-transform" />
-            <FaLinkedin className="w-6 h-6 cursor-pointer hover:scale-110 hover:text-blue-600 transition-transform" />
-            <FaTwitter className="w-6 h-6 cursor-pointer hover:scale-110 hover: transition-transform" />
-            <FaYoutube className="w-6 h-6 cursor-pointer hover:scale-110 hover:text-red-500 transition-transform" />
+            <FaFacebook className="w-6 h-6 cursor-pointer hover:scale-110 text-blue-500 transition-transform" />
+            <FaInstagram className="w-6 h-6 cursor-pointer hover:scale-110 text-pink-500 transition-transform" />
+            <FaLinkedin className="w-6 h-6 cursor-pointer hover:scale-110 text-blue-600 transition-transform" />
+            <FaTwitter className="w-6 h-6 cursor-pointer hover:scale-110 text-blue-400 transition-transform" />
+            <FaYoutube className="w-6 h-6 cursor-pointer hover:scale-110 text-red-500 transition-transform" />
           </div>
         </div>
 

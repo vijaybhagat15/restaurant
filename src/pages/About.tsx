@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <div className="text-black border-y-2 border-white text-secondary">
-    <section className="bg-gray-100 py-12 px-6 md:px-20">
+    <section className="border-gray-300 border-b-2 py-12 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Image */}
         <div className="relative">
@@ -40,8 +40,8 @@ const About = () => {
         </div>
       </div>
     </section>
-      <div className="container mx-auto px-6 py-16 font-sans">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 py-5 font-sans ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center border-gray-300 border-b-2 py-3">
           {/* Right Column: Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -62,7 +62,7 @@ const About = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center bg-teal-500 rounded-3xl p-[1px]"
+            className="flex justify-center bg-yellow-600 rounded-3xl p-[1px]"
           >
             <img
               src="images\section4\img3.avif"
@@ -78,64 +78,64 @@ const About = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mt-16 text-center"
+          className="py-5 text-center border-gray-300 border-b-2"
         >
           <h2 className="text-2xl text-primary font-bold">Our Mission</h2>
-          <p className="mt-6 text-secondary leading-relaxed max-w-3xl mx-auto">
+          <p className="py-2 text-secondary leading-relaxed max-w-3xl mx-auto">
 
           Our mission is to build a reliable and inclusive platform that empowers restaurants to source premium ingredients effortlessly. We aim to support culinary innovation and operational growth through trust, transparency, and technology.
           </p>
         </motion.div>
 
         <Section5 />
-<section className="bg-primary py-12 px-6 md:px-20">
-  <div className="max-w-5xl mx-auto flex flex-col gap-12">
-    {/* India HQ */}
-    <div className="flex flex-col md:flex-row gap-6 items-center">
-      <img
-        src="images/section4/img3.avif"
-        alt="Maison Flavour India Office"
-        className="w-full md:w-1/2 rounded-lg shadow-lg"
-      />
-      <div className="text-center md:text-left md:pl-20">
-        <h3 className="text-2xl text-primary font-bold mb-2">Bangalore (India HQ)</h3>
-        <p className="text-sm text-secondary font-semibold">Address</p>
-        <p className="mb-2 text-secondary">
-          #21, 2nd Floor, Indiranagar<br />
-          Bangalore, Karnataka 560038<br />
-          India
-        </p>
-        <p className="text-sm text-secondary font-semibold">Phone</p>
-        <a href="tel:+918050123456" className="text-yellow-600 font-medium hover:underline">
-          +91 80501 23456
-        </a>
-      </div>
-    </div>
+        <section className="bg-primary py-12 px-6 md:px-20 border-gray-300">
+          <div className="max-w-5xl mx-auto flex flex-col gap-12">
+            {/* India HQ */}
+            <div className="flex flex-col md:flex-row gap-6 items-center">
+              <img
+                src="images/section4/img3.avif"
+                alt="Maison Flavour India Office"
+                className="w-full md:w-1/2 rounded-lg shadow-lg"
+              />
+              <div className="text-center md:text-left md:pl-20">
+                <h3 className="text-2xl text-primary font-bold mb-2">Bangalore (India HQ)</h3>
+                <p className="text-sm text-secondary font-semibold">Address</p>
+                <p className="mb-2 text-secondary">
+                  #21, 2nd Floor, Indiranagar<br />
+                  Bangalore, Karnataka 560038<br />
+                  India
+                </p>
+                <p className="text-sm text-secondary font-semibold">Phone</p>
+                <a href="tel:+918050123456" className="text-yellow-600 font-medium hover:underline">
+                  +91 80501 23456
+                </a>
+              </div>
+            </div>
 
-    {/* UAE HQ */}
-    <div className="flex flex-col md:flex-row-reverse gap-6 items-center">
-      <img
-        src="images/section4/img4.jpg"
-        alt="Maison Flavour UAE Office"
-        className="w-full md:w-1/2 rounded-lg shadow-lg"
-      />
-      <div className="text-center md:text-left md:pr-20">
-        <h3 className="text-2xl text-primary font-bold mb-2">Dubai (UAE HQ)</h3>
-        <p className="text-sm text-secondary font-semibold">Address</p>
-        <p className="mb-2 text-secondary">
-          Maison Flavour HQ<br />
-          Jumeirah Lake Towers, Cluster T<br />
-          Dubai, United Arab Emirates
-        </p>
-        <p className="text-sm text-secondary font-semibold">Phone</p>
-        <a href="tel:+97145501234" className="text-yellow-600 font-medium hover:underline">
-          +971 4 550 1234
-        </a>
-      </div>
-    </div>
+            {/* UAE HQ */}
+            <div className="flex flex-col md:flex-row-reverse gap-6 items-center">
+              <img
+                src="images/section4/img4.jpg"
+                alt="Maison Flavour UAE Office"
+                className="w-full md:w-1/2 rounded-lg shadow-lg"
+              />
+              <div className="text-center md:text-left md:pr-20">
+                <h3 className="text-2xl text-primary font-bold mb-2">Dubai (UAE HQ)</h3>
+                <p className="text-sm text-secondary font-semibold">Address</p>
+                <p className="mb-2 text-secondary">
+                  Maison Flavour HQ<br />
+                  Jumeirah Lake Towers, Cluster T<br />
+                  Dubai, United Arab Emirates
+                </p>
+                <p className="text-sm text-secondary font-semibold">Phone</p>
+                <a href="tel:+97145501234" className="text-yellow-600 font-medium hover:underline">
+                  +971 4 550 1234
+                </a>
+              </div>
+            </div>
 
-  </div>
-</section>
+          </div>
+        </section>
 
 
     
