@@ -1,7 +1,9 @@
 import JobSearch from "../components/Jobserch";
 export default function CareerSection() {
   return (
-    <section className="w-full bg-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 sm:py-20 py-5 relative overflow-hidden text-secondary">
+
+    <div>
+          <section className="w-full bg-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 sm:py-20 py-5 relative overflow-hidden text-secondary">
       {/* Right Image Content */}
 <div className="w-full md:w-[500px] mt-3 md:mt-0 sticky top-0 z-0 self-start sm:hidden">
   <img
@@ -19,8 +21,6 @@ export default function CareerSection() {
         <p className="text-base text-secondary">
         Join our passionate team and be part of a flavorful journey where your talent, creativity, and dedication help create memorable dining experiences every day. 
         </p>
-
-          <JobSearch/>
       </div>
 
 {/* Right Image Content */}
@@ -35,5 +35,7 @@ export default function CareerSection() {
 </div>
 
     </section>
+      <JobSearch/>
+    </div>
   );
 }
